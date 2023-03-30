@@ -49,7 +49,6 @@ class SQLiteHelper(context: Context):
     }
 
 
-
     @SuppressLint("Range")
     fun getAllStudent(): ArrayList<StudentModel> {
         val stdList: ArrayList<StudentModel> = ArrayList()
